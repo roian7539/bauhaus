@@ -1,0 +1,605 @@
+    @font-face {
+        src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+        font-family: 'Pretendard-Regular';
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    /* .noto-sans-<uniquifier> {
+        font-family: "Noto Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+      } */
+
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        width: 100%;
+        height: 50px;
+        border-bottom: 1px solid black;
+        position: relative;
+    }
+
+    .button00 {
+        top: 15px;
+        left: 1133px;
+        position: absolute;
+        display: flex;
+    }
+
+    .button_a {
+        color: black;
+        font-size: 16px;
+        font-family: 'Pretendard-Regular';
+        font-weight: 600;
+        list-style-type: none;
+        display: inline-block;
+        padding-right: 107px;     
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+
+    /* body */
+    section{
+        width: 100%;
+    }
+
+    .main{
+       width: 1920px;
+       height: 750px;
+       position: relative;
+    }    
+    .m-box{
+        width: 160px;
+        height: 178px;
+        position: absolute;
+        top: 65px;
+    }
+    .m0{
+        width: 141px;
+        height: 307px;
+        line-height: 160px;
+    }
+    .main-text{
+        position: absolute;
+        font-family: 'Pretendard-Regular';
+        font-weight: 400;
+        font-size: 123px;
+        letter-spacing: -0.5px;
+        width: 898px;
+        top: 128px;
+        left: 200px;
+    }
+    .main-text-b{
+        font-family: 'Pretendard-Regular';
+        font-weight: 700;
+        font-size: 123px;
+    }
+    .m-icon > img{
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        right: 428px;
+        bottom: 107px;
+    }
+    .m-right{
+        background-color: #000;
+        position: absolute;
+        width: 218px;
+        height: 750px;
+        right: 0;
+    }
+    
+    
+    /* sony */
+    .sony01{
+        width: 1920px;
+        height: 750px;
+        position: relative;
+        
+    }
+    .sony_ico{
+        position: absolute;
+        width: 210px;
+        height: 750px;
+        border-right: 5px solid #000;
+    }
+    .sony_ico > img{
+        position: absolute;
+        width: 114px;
+        height: 640px;
+        top: 55px;
+        left: 48px;
+    }
+    .s-box01{
+        width: 250px;
+        height: 485px;
+        background-color: #000;
+        position: absolute;
+        top: 265px;
+        left: 210px;
+    }
+
+    table{
+        border-collapse: collapse;
+    }
+    .s_table{
+        width: 1000px;
+        height: 750px;
+        position: absolute;
+        left: 460px;
+    }
+    .s_tr > td{
+        width: 50%;
+    }
+    .sony_title01{
+        font-family: 'Pretendard-Regular';
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 50px;
+        border-bottom: 2px solid #000;
+        height: 265px;
+        position: relative;
+    }
+    .sony_title01 > div{
+        position: absolute;
+        width: 427px;
+        height: 110px;
+        top: 138px;
+    }
+    .sony_text00{
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .sony_text01{
+        padding-left: 29px;
+        padding-right: 28px;
+    }
+    .sony_man{
+        background-image: url(img/sony_man.png);
+        border-left: 2px solid #000;
+        border-right: 2px solid #000;
+    }
+
+    .s-box02{
+        width: 460px;
+        height: 265px;
+        background-color: #000;
+        position: absolute;
+        right: 0px;
+    }
+
+    .sony02{
+        width: 1920px;
+        background-image: url(img/TV.png);
+        height: 750px;
+        position: relative;
+    }
+    .sony_title02{
+        font-family: 'Pretendard-Regular';
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 50px;
+        position: absolute;
+        top: 61px;
+        left: 1006px;
+    }
+    .sony_text02{
+        width: 634px;
+        top: 213px;
+        left: 1006px;
+        position: absolute;
+    }
+
+    /* bauhaus */
+    .bauhaus01{
+        width: 100%;
+        height: 750px;
+        position: relative;
+    }
+    .b_top_line1{
+        position: absolute;
+        width: 100px;
+        height: 105px;
+        left: 460px;
+        border-left: 2px solid black;
+    }
+    .b_top_line2{
+        position: absolute;
+        width: 100px;
+        height: 73px;
+        top: 32px;
+        left: 1458px;
+        border-left: 2px solid black;
+    }
+    
+    .b_top01 {
+        width: 100%;
+        height: 30px;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+    .b_tul {
+        position: absolute;
+        display: flex;
+        left: 1111px;
+        top: 7px;
+    }
+    .b_tli {
+        color: black;
+        font-size: 16px;
+        font-family: 'Pretendard-Regular';
+        font-weight: 600;
+        list-style-type: none;
+        display: inline-block;
+        padding-right: 68px;     
+    }
+    .b_top02{
+        width: 100%;
+        height: 71px;
+        border-bottom: 2px solid black;
+    }
+    .b_title{
+        position: absolute;
+        left: 468px;
+        top: 35px;
+        font-size: 56px;
+        font-family: 'Pretendard-Regular';
+        font-weight: 600;
+        letter-spacing: -1.5px;
+        width: 489px;
+        height: 67px;
+    }
+
+    .b_left{
+        position: relative;
+        top: 139px;
+        left: 285px;
+        width: 131px;
+        height: 292px;
+    }
+    .b_lefta{
+        width: 8px;
+        height: 8px;
+        background-color: #000;
+        border-radius: 50%;
+        top: 19px;
+    }
+    .b_leftb{
+        position: absolute;
+        left: 3.5px;
+        top: 78.5px;
+        width: 5px;
+        height: 201px;
+        border-left: 1px solid black;
+    }
+    .b_leftul{
+        position: absolute;
+        list-style-type: none;
+        top: 0;
+        right: 0;
+
+    }
+    .b_leftli{
+        font-family: 'Pretendard-Regular';
+        font-weight: 700;
+        font-size: 40px;
+        padding-bottom: 43px;
+    }
+    .bl1{
+        letter-spacing: -1cm;
+    }
+    .bl2{
+        letter-spacing: 1.5cm;
+    }
+    
+    .b_table{
+        position: absolute;
+        top: 105px;
+        left: 460px;
+        width: 1000px;
+        height: 646px;
+    }
+    .b_tr > td{
+        width: 25%;
+        border: 2px solid #000;
+    }
+    .b_td{
+        position: relative;
+    }
+    
+    .b_name{
+        font-family: 'Pretendard-Regular';
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 25px;
+        letter-spacing: -0.5px;
+        text-align: left;
+    }
+    .b_text{
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: -0.5px;
+        text-align: left;
+    }
+
+    .b_tda01{
+        width: 210px;
+        height: 270px;
+        position: absolute;
+        top: 25px;
+        left: 20px;
+    }
+    .b_tda02{
+        width: 193px;
+        height: 55px;
+        position: absolute;
+        top: 341px;
+        left: 20px;
+    }
+    .b_tda03{
+        width: 210px;
+        height: 119px;
+        position: absolute;
+        bottom: 115px;
+        left: 20px;
+    }
+
+    .b_tdb01{
+        width: 134px;
+        height: 54px;
+        position: absolute;
+        top: 25px;
+        left: 20px;
+    }
+    .b_tdbl{
+        position: absolute;
+        top: 100px;
+        left: 20px;
+        width: 28px;
+        height: 5px;
+        border-top: 2px solid #000;
+    }
+    .b_tdb02{
+        width: 210px;
+        height: 270px;
+        position: absolute;
+        top: 176px;
+        left: 20px;
+    }
+    .b_tdb03{
+        width: 210px;
+        height: 118px;
+        position: absolute;
+        bottom: 66px;
+        left: 20px;
+    }
+
+    .b_tdc01{
+        width: 210px;
+        height: 270px;
+        position: absolute;
+        top: 25px;
+        left: 20px;
+    }
+    .b_tdc02{
+        width: 210px;
+        height: 55px;
+        position: absolute;
+        top: 327px;
+        left: 20px;
+    }
+    .b_tdc03{
+        width: 210px;
+        height: 218px;
+        position: absolute;
+        bottom: 31px;
+        left: 20px;
+    }
+
+    .b_tdd01{
+        width: 124px;
+        height: 58px;
+        position: absolute;
+        top: 25px;
+        left: 20px;
+    }
+    .b_tddl{
+        position: absolute;
+        top: 100px;
+        left: 20px;
+        width: 28px;
+        height: 5px;
+        border-top: 2px solid #000;
+    }
+    .b_tdd02{
+        width: 210px;
+        height: 270px;
+        position: absolute;
+        top: 224px;
+        left: 20px;
+    }
+    .b_tdd03{
+        width: 210px;
+        height: 78px;
+        position: absolute;
+        bottom: 51px;
+        left: 20px;
+    }
+
+    /* BAUHAUS2 */
+    .bauhaus02{
+        width: 1980px;
+        height: 750px;
+        position: relative;
+    }
+    .b_box01{
+        width: 460px;
+        height: 336px;
+        position: absolute;
+        border-top: 2px solid #000;
+        border-bottom: 2px solid #000;
+    }
+    .b_box02{
+        width: 100%;
+        height: 336px;
+        position: absolute;
+        left: 1710px;
+        border-top: 2px solid #000;
+    }
+    .b_table2{
+        position: absolute;
+        left: 460px;
+        width: 1250px;
+        height: 750px;
+    }
+    .b_tr2 > td{
+        width: 250px;
+        border: 2px solid #000;
+    }
+    .b_tr2{
+        height: 168px;
+    }
+    .b_td2{
+        position: relative;
+    }
+    .b_tde{
+        height: 168px;
+    }
+    .b_tde1{
+        position: absolute;
+        width: 750px;
+    }
+
+    .b_tde2{
+        width: 210px;
+        height: 579px;
+        position: absolute;
+        top: 27px;
+        left: 20px;
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: -0.5px;
+        text-align: left;
+
+    }
+    .b_tdf1{
+        width: 210px;
+        height: 524px;
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: -0.5px;
+        text-align: left
+    }
+
+    .b_tdg1{
+        width: 210px;
+        height: 137px;
+        position: absolute;
+        top: 35px;
+        left: 20px;
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: -0.5px;
+        text-align: left;
+
+    }
+    .b_tdg2{
+        width: 460px;
+        height: 264px;
+        position: absolute;
+        top: 35px;
+        left: 20px;
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: -0.5px;
+        text-align: left;
+
+    }
+
+
+
+
+
+
+    /* dieter */
+    .dieter{
+        width: 1920px;
+        height: 750px;
+    }
+    .dieter_cont1{
+        background-image: url(img/white.png);
+        height: 450px;
+    }
+    .dieter_cont2{
+        width: 1000px;
+        height: 300px;
+        position: relative;
+        margin: 0 auto;
+    }
+    
+    .dieter_title{
+        font-family: 'Pretendard-Regular';
+        font-weight: 800;
+        font-size: 50px;
+        position: absolute;
+        top: 26px;
+    }
+    .dieter_bodycopy{
+        width: 531px;
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        position: absolute;
+        right: 0;
+        top: 26px;
+    }
+
+
+    footer {
+        width: 100%;
+        height: 340px;
+        background: #000;
+        color: white;
+        text-align: center;
+        font-family: 'Pretendard-Regular';
+        font-weight: 400;
+    }
+    .caption_title{
+        padding-top: 76px;
+        font-size: 24px;
+    }
+    .caption_txt{
+        padding: 42px 0;
+        font-size: 20px;
+        letter-spacing: -0.5px;
+    }
+    .caption_p{
+        font-size: 16px;
+        letter-spacing: -0.5px;
+    }
